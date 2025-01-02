@@ -108,8 +108,99 @@ Personal pronouns not used in resumes, but OK for cover letters.
 - Self employment is highly marketable (relate to entrepreneurial spirit)
 - can be paid or unpaid
 
+### Education (required)
+- BCIT
+- Other post-sec
+- Other training
+- Do not include course numbers
+
+### Interests (oprional)
+- Avoid written laundry lists
+- How engaged are you in your hobbies/interests listed
+- consider sports/instruments since youth
+- keep it interesting!
+
 ## Accomplishment Statements
-What + how + result/rationale -> accomplishment statement
+What (action verb) + how + result/rationale -> accomplishment statement
 
 # Cover Letters
-# Job Search
+## purpose
+Personalise, expression of interest, informational interview, showcase communication skills
+
+Pull up job description.
+The cover letter content is the in-between of you and the job you're applying for.
+
+## professional format
+1. Header
+2. Date
+3. Employer Information
+4. RE: Position you are applying to
+5. Salutation
+6. 4-5 paragraphs in total.
+
+## analysing job descriptions
+The order of points demonstrates what is most important to them.
+You need to meet at least 60-70% of the job description.
+What makes you different?
+
+## introduction
+The hook! create a connection:
+- Why them?
+- How to add value?
+
+> [!note]
+> Skip the filler and jump right into grabbing their attention!  
+> What are ways you can demonstrate a connection with the employer?
+
+## body
+Relate your skills, interests, knowledge, and abilities to the needs of employer.
+Point out relevant projects and experience.
+Elaborate on your courses if appropriate
+Highlight extra-curricular and volunteer experience
+Relate back to job explicitly to help reader see a match
+Results!
+
+## closing
+Summarise skills and experience. 
+Reiterate your fit for the position.
+Thank you and indicate interest in an interview. 
+
+## the employer
+Is thinking of the job and how you relate.
+They don't have a lot of time, and must depend on minimal data. 
+They often ask for qualifications on job positing on the wish list.
+
+## guest speaker (Andrew Mai)
+from Tidalis (Saab)
+Concise is better. More than one page is too much.
+STAR. Don't forget the result!
+They are here for someone to learn.
+
+Prepare: 
+How do you resolve conflicts?
+Vocalise your thoughts!
+
+## App observations
+Triple check that you have the correct employer name!!
+- Dear First Name Last Name
+- 1st line of the 1st paragraph is the hook
+...
+
+# Job Search and Networking
+## other avenues
+- Word of mouth (referrals)
+- other job boards
+
+- job fairs
+    - How would you introduce yourself? Elevator pitch?
+    - what are you doing right now?
+    - what motivates you, what makes you unique?
+    - what are you interested in learning next?
+    - what are you asking for?
+    - prepare questions
+
+- Linkedin
+    - visible by hr and companies
+    - keep in touch with connections without having to exchange email addresses
+    - contact previous co-op students for interview help
+    - contact alumni
