@@ -59,11 +59,57 @@ An eJOBS application includes
 
 ## success tips
 - Know what sets you apart
--
-
 
 # Resumes
+Tailored, targeted, customised.
+Personal pronouns not used in resumes, but OK for cover letters.
 
+## Coop Employers' perspective
+- Previous work experience, especially leadership and customer service
+- technical skills
+- projects: personal, academic (w/ links)
+- previous degrees
+- visually clean and interesting
+- gpa
+
+## Resume
+### Header (required)
+- Name (include preferred)
+- BCIT email (for co-op)
+- phone
+- Linkedin
+- Github
+
+> [!NOTE]
+> Be mindful of branding, spacing, look & feel
+
+### Profile/Highlights (optional)
+- Your story
+- Passion for industry stems from?
+- Soft skills
+- This section can be tweaked for each company
+
+### Technical skills
+- Languages
+- Frameworks
+- Software
+- Tools/Methodologies
+- Databases
+
+### Techical projects
+- Background
+- Include Metrics where possible
+- Role
+- Learning/takeaway
+- Note about URLS!!
+
+### Work Experience (optional for co-op)
+- Specific section titles
+- Self employment is highly marketable (relate to entrepreneurial spirit)
+- can be paid or unpaid
+
+## Accomplishment Statements
+What + how + result/rationale -> accomplishment statement
 
 # Cover Letters
 # Job Search
