@@ -2,5 +2,7 @@
   "livePreview": false,
   "defaultViewMode": "preview",
   "vimMode": true,
-  "focusNewTab": false
+  "focusNewTab": false,
+  "showLineNumber": true,
+  "useTab": false
 }

@@ -2,7 +2,9 @@ COOP 202510
 ====
 # orientation
 ## Communication
-Main communication is **Mattermost** (turn notifs on). Eunice is offline on weekends and after 1700 on weekdays. Secondary is BCIT Email (see eunice's email on slides).
+Main communication is **Mattermost** (turn notifs on).
+Eunice is offline on weekends and after 1700 on weekdays.
+Secondary is BCIT Email (see eunice's email on slides).
 
 Eunice's mobile: (778) 928-2156
 
@@ -26,7 +28,7 @@ Acceptable reasons:
 - Duties are drastically fiferent from job desc.
 - Concerns around work environment.
 
-Non acceptable reasons
+Non acceptable reasons:
 - Location
 - Interview the following week
 - Waiting for interview shortlist of another job
@@ -46,6 +48,19 @@ An eJOBS application includes
 - Set aside time to apply
 - consider location and duties
 - review student at work articles before submitting your app or attending an interview.
+- Apply to jobs: Ratio **~15 apps : 1 interview**
+- Apply for more than one position per company strategically
+- Be open to different roles.
+- SAVE the job descriptions.
+- Most positions come in around Jan and February.
+
+## tap into your network
+**Self-directed work term**: Job must be approved by coordinator before accepting.
+
+## success tips
+- Know what sets you apart
+-
+
 
 # Resumes
 

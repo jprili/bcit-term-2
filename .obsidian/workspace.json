@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "coop/coop.md",
+                "file": "orientation.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "coop"
+              "title": "orientation"
             }
           }
         ]
@@ -160,10 +160,11 @@
   },
   "active": "126d37708671e973",
   "lastOpenFiles": [
+    "coop/coop.md",
+    "orientation.md",
     "README.md",
     "Untitled",
     "comp2121/comp2121.md",
-    "coop/coop.md",
     "BCIT Term 2.md",
     "2024-12-25.md",
     "comp2537/comp2537.md",
