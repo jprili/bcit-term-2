@@ -204,3 +204,8 @@ Triple check that you have the correct employer name!!
     - keep in touch with connections without having to exchange email addresses
     - contact previous co-op students for interview help
     - contact alumni
+
+# next steps
+Jan 6- 24: meet with eunice 1-1 Upload resume to learning hub before our meeting
+Jan 8: whiteboarding in person 1730 - 2030
+Jan 8 and 15: interview seminar in person
