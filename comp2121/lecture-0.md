@@ -140,7 +140,7 @@ A:  $8P5 = 8!/3! = 6720$
 Note that there are 3 As.
 
 To account for repetition, we modify by labelling the As. Like $CA_{1}NA_{2}DA_{3}$.
-There are $3!$ ways to re-order the $A$s.
+There are $3!$ ways to re-order the $A$ s.
 
 Therefore, the correct answer is $6! / 3! = 120$.
 
@@ -153,6 +153,7 @@ $11!/(4!4!2!) = 34650$.
 > Theorem
 >
 > In general for $j$ indistinguishable objects, the number of arrangement is 
+>
 > $$
 > \begin{equation}
 > \frac{n!}{n_{1}!n_{2}!\ldots n_{j}!}
@@ -165,7 +166,7 @@ When we are counting ordered sequences of objects, it often helps to think in te
 In other counting problems, the groups of objects are not ordered (or the order does not matter). 
 For those problems, it helps to think in terms of combinations.
 
-**Example**: How many ways can you put rings on two out of five fingers?
+**Example**: How many ways can you put rings on two out of five fingers?  
 A: $\text{C}(5, 2) = 5\text{C}2 = \begin{pmatrix} 5 \\ 2\end{pmatrix} = 10$
 
 This is the same as asking "how many 5-bit strings have exactly two 1s" or 
@@ -177,6 +178,7 @@ $P(5 , 3) = 5(4)(3) = 60$
 $C(5, 3) = \text{number of combinations} / \text{number of arrangements per state with the same objects} = 5(4)(3)/(3(2)(1))$
 
 **Definition**: If $n$ distinct objects are available, a combination of $r$ objects (no order specified can be formed in $C(n,r)$ ways.
+
 $$
 C(n,r) = \frac{P(n,r)}{r!} = \frac{n!}{(n-r)!r!}
 $$
