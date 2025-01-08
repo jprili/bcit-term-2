@@ -117,10 +117,25 @@ A DB has the ability to represent complex relationships among the data.
 **Application Programs**: Functional Analysis, DFDs, Software Engineering
 
 # Responsibilities of the DBMS
-* Data Integrity Maintenance
-* Query Processing
-* Security Management
-* Concurrency Control
-* Backup & Recovery
+* **Data Integrity Maintenance:** The DBMS has the capability to define and enforce integrity constraints which are restrictions placed on the data, based on the semantics or meaning of the data.
 
+* **Query Processing**: The DBMS is equipped with a programming language so simple that you can run queries and return data in just seconds, yet so powerful it can manage millions of tuples of data without worrying about crashing at high speed.
+
+* **Security Management**: The DBMS provides built-in security
+* **Concurrency Control**: DBMS utilises control for asynchronous events.
+* **Backup & Recovery**: DBMS provides backup in-case sudden incidents.
+
+# Three-Schema Architecture
+**External Level**: provides access to particular parts of the database to users.
+
+**Conceptual Level**: describes the structure of the whole database for a community of users.
+
+**Internal Level**: describes the physical storage of the DB.
+
+## Data Independence
+Data independence is the ability to change the schema at one level of a database system without having to change the schema at the next higher level.
+
+1. **Logical Data Independence** is the ability to change the conceptual schema without changing *external views* or applications.
+
+2. **Physical Data Independence** is the ability to modify the physical schema without changing the *logical schema*.
 
