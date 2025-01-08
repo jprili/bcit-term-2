@@ -168,7 +168,8 @@ For those problems, it helps to think in terms of combinations.
 
 **Example**: How many ways can you put rings on two out of five fingers?  
 
-A: $\text{C}(5, 2) = 5\text{C}2 = \begin{pmatrix} 5 \\ 2\end{pmatrix} = 10$
+A:  
+$\text{C}(5, 2) = 5\text{C}2 = \begin{pmatrix} 5 \\ 2\end{pmatrix} = 10$
 
 This is the same as asking "how many 5-bit strings have exactly two 1s" or 
 "how many 5-bit strings have exactly three 0s".  
