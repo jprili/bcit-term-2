@@ -19,7 +19,6 @@ To solve a problem, you typically need to break down a complicated task into a s
 Counting problems require algorithmic thinking.
 
 ## Examples
-----
 Q: How many different 8-bit binary strings are there?
 A: $2^{8}$
 
@@ -93,7 +92,7 @@ A: $\sum_{1}^{n-1}x = \frac{(n-1)n}{2}$
 **Example**: With three objects $A$, $B$, $C$, the possible permutations are:
 $ABC$, $ACB$, $BAC$, $BCA$, $CAB$, $CBA$. Why 6 permutations? We have 3 options for position 1, 2 on position 2, and 1 on position 3, so the number of ways is $3 * 2 * 1 = 6$.
 
-> [!note] Theorem
+> [!note] Theorem  
 > The number of permutations of $n$ disctinct objects is $n!$
 
 **Definition**: An $r$-permutation is an arrangement of $r$ objects taken from a set of $n$ objects. 
@@ -103,7 +102,7 @@ The number of such $r$ -permutations is denoted $P(n,r)$ or $nPr$.
 
 **Example**: 3-permutations are from 26 letters? ... $26P2$.
 
-> [!note] Theorem
+> [!note] Theorem  
 > $$
 > \begin{equation} 
 > \text{P}(n, r) = n\text{P}r = n (n -1) ... (n - r + 1) = \frac{n!}{(n-r)!}
@@ -147,6 +146,7 @@ A: We have 11 objects, with 1 M, 4 I, 4 S, and 2 P. We can then write the answer
 $11!/(4!4!2!) = 34650$.
 
 > [!note] Theorem
+>
 > In general for $j$ indistinguishable objects, the number of arrangement is 
 > $$
 > \begin{equation}
