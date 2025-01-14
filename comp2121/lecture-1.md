@@ -147,4 +147,4 @@ Summary:
 | | Order Matters | Order does not matter |
 |-|---------------|-----------------------|
 |with repetition| $n^r$ | $(n + r - 1) \text{C} r$ |
-|without repetition | $P(n, r) = n!/(n-r)! | $C(n, r) = \frac{n!}{r!(n-r)!}$
+|without repetition | $P(n, r) = n!/(n-r)!$ | $C(n, r) = \frac{n!}{r!(n-r)!}$
