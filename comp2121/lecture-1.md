@@ -148,3 +148,75 @@ Summary:
 |-|---------------|-----------------------|
 |with repetition| $n^r$ | $(n + r - 1) \text{C} r$ |
 |without repetition | $P(n, r) = n!/(n-r)!$ | $C(n, r) = \frac{n!}{r!(n-r)!}$
+
+# Sequences, Recursion, and Summations
+
+> [!note]
+> **Definition**: A sequence is an ordered list of numbers or objects.
+
+**Example** Find the terms of the sequences defined by the general terms.
+```math
+a_{k} = \frac{k}{k+1}, k \geq 1
+```
+
+```math
+a_{1} = \frac{1}{2}, a_{2} = \frac{2}{3}
+```
+and so on.
+We can also write the above as:
+```math
+b_{i} = \frac{i -1}{i}, i \geq 2
+```
+
+## alternating sequence
+**Example**: The general term for a sequence like
+```math
+1, -\frac{1}{4}, \frac{1}{9}, ...
+```
+
+```math
+a_{k} = \frac{(-1)^{k+1}}{k^{2}}, k \geq 1
+```
+
+**Example**
+```math
+3, 9, 33, 129, 513, 2049 , \ldots
+```
+
+```math
+a_{k} = 2^{2k-1} + 1, k \geq 1
+```
+
+## recursive sequences
+The sequence $a_{n} = n!$ can be defined recursively.
+```math
+\begin{align}
+a_{1} &= &1 &\\
+a_{k+1} &= &(k + 1) a_{k} & k \geq 1 \\
+\text{OR:} &a_{k} &= k a_{k-1} & k \geq 2 \\
+\end{align}
+```
+
+**Example** The Fibonnacci sequence:  
+```math
+\begin{align}
+F_0 &= &0 & \\
+F_1 &= &1 & \\ 
+F_1 &= F_{k-1} + F_{k-2} & k \geq 2\\ 
+\end{align}
+```
+
+\[Carl draws a recursive tree here\]
+
+# Summations
+```math
+\sum_{k = 1}^{n} k  = \frac{(n(n+1))}{n}
+```
+
+```math
+\sum_{k = 1}^{n} k^{2} = \frac{n(n+1)(2n + 1)}{6}
+```
+
+```math
+\sum_{k = 1}^{n} k^{3} = \left[\frac{n(n+1)}{2}\right]^{2}
+```
