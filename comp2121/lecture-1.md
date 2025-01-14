@@ -107,3 +107,44 @@ Then the number of arrangements is (from mississippi problem):
 ```math
 \frac{(n+r-1)!}{r!(n-1)!}
 ```
+
+**Example** How many arrangements of the letters in CANADIAN have at least two letters between the Ns?
+Step 1:  
+Think of the Ns as barriers.  
+\_\_N\_\_N\_\_  
+Number of ways (wrong answer): $n = 3$, $r = 6$ and use $(n + r - 1)\text{C}r$.  
+The correct answer is with $n=3$, $r=4$ (15 ways).
+
+Step 2:  
+Arrange the remaining letters.
+There are $6!/3! = 120$ ways to do so.
+
+So the total number of ways is $15 * 120 = 1800$ ways. 
+
+**Example** Suppose we have 
+```
+for i = 1 to 5
+    for j = i to 5
+        print i, j
+    next j
+next i
+```
+Q: How many times is the print statement executed?  
+A: This is a combination with repetition problem with $n = 5$ and $r = 2$ since `i, j` can be repeated.
+We can also bruteforce it, but using the combination with repetition formula we get 15.
+
+```
+for i = 1 to 5
+    for j = 1 to i
+        print i, j
+    next j
+next i
+```
+This is also a combination with repetition problem.
+The answer is also 15 since it's just the backwards version (`1 to i` instead of `i to 5`).
+
+Summary:  
+| | Order Matters | Order does not matter |
+|-|---------------|-----------------------|
+|with repetition| $n^r$ | $(n + r - 1) \text{C} r$ |
+|without repetition | $P(n, r) = n!/(n-r)! | $C(n, r) = \frac{n!}{r!(n-r)!}$
