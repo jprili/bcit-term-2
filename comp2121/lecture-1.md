@@ -10,9 +10,9 @@ With students $A$ to $E$, how many ways can you select 3 students and put them i
 > Assignment 1 (A01) out. Due 28 Jan.
 
 Remember:
-$$
+```math
 n\text{C}r = \frac{n\text{P}r}{r!}
-$$
+```
 
 **Example**:
 A network consists of 10 servers with two subnets (NET1, NET2), each with 5 servers.
@@ -22,7 +22,7 @@ Q: The attacker must crash any 7 of 10?
 A: $10\text{C}7 = 120$  
 
 Q: Exactly 3 from NET1, and 4 from NET2?  
-A: $3\text{C}5 \times 4\text{C}5$a  
+A: $3\text{C}5 \times 4\text{C}5$  
 
 Q: The attacker must crash at least three servers from NET1?  
 A: 
