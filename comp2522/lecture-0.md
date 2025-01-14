@@ -106,6 +106,7 @@ Just like python, we have
 The Java `String` is an immutable sequence of primitive char (unicode code points) surrounded by codepoints.
 
 We cannot compare the values with `==`. We do it with `.equals()`.
+
 ```java
 String drink = "champagne";
 String anotherDrink = "hard liquor";
@@ -122,7 +123,7 @@ So:
 
 # null
 A null indicates an unset reference. We cannot assign `null` to primitives.
-```
+```java
 String name = null; // correct
 int number = null; // wrong
 ```
@@ -130,7 +131,7 @@ int number = null; // wrong
 # new
 We use `new` to create an object by invoking a constructor.
 The syntax is 
-```
+```java
 ClassName variableName = new ClassName(parameters);
 ```
 
