@@ -22,3 +22,39 @@ We can use quantifiers to make statements about various unnamed objects:
 \exists x \text{PM}(x)
 ```
 Means there exists $x$ such that $\text{PM}(x)$.
+
+```math
+\neg \exists y \text{M}(J, y)
+```
+```math
+\forall \exists y \text{M}(J, y)
+```
+
+# Open Statements
+$x$ or $y$ is an unspecified variable, then $\text{M}(x,y)$ is neither true or false.
+It is called an open statement.
+The unspecified variables are called *free variables*.
+
+# Quantifiers
+## Existential quantifier
+$\exists x p(x)$ means there is some $a \in U$ where the statement $p(a)$ is true.
+
+To prove it, we need to find the $a$ which makes $p(a)$ true.
+To disprove it, we need to show that $p(x)$ is false for $\any x \in U$.
+
+## Universal quantifier
+$\all x p(x)$ means for all $a \in U$ the statement $p(a)$ is true.
+To prove it: test that $p(a)$ is true for all $a \in U$
+To disprove it, give a counterexample.
+
+# Bound variable
+Once you apply $\exists x$ or $\all x$ to an open sentence $p(x)$, $x$ is no longer free; it beomes a *bound* variable. 
+It is bound by the quantifier $\exists x$ or $\all x$.
+
+# Negations of Quantified Statements
+```math
+\begin{align*}
+\neg \all x q(x) &\Leftrightarrow &\exists x \neg q(x) \\
+\neg \exists x q(x) &\Leftrightarrow &\all x \neq q(x) 
+\end{align*}
+```
