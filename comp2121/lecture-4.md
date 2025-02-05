@@ -55,6 +55,8 @@ It is bound by the quantifier $\exists x$ or $\forall x$.
 ```math
 \begin{align*}
 \neg \forall x q(x) &\Leftrightarrow &\exists x \neg q(x) \\
-\neg \exists x q(x) &\Leftrightarrow &\forall x \neq q(x) 
+\neg \exists x q(x) &\Leftrightarrow &\forall x \neg q(x) 
 \end{align*}
 ```
+
+
