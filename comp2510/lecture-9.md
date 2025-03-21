@@ -159,3 +159,8 @@ int insert_desc(node** phead, int value) {
 
 3. at end (see lab)
 
+## removing a node
+Three steps:
+1. Find the target node
+2. Assign the previous' next to be the target's next
+3. free the target node
