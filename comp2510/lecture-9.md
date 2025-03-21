@@ -134,12 +134,28 @@ int insert_front(node** phead, int data) {
 
 ```c
 // example (descending)
-node** tracer;
-for (tracer = &head;  *tracer != 0; tracer = &(*tracer)->next) {
-    /* try to insert or remove node */
+
+int insert_desc(node** phead, int value) {
+    node** tracer;
+    node*  newNode = malloc(sizeof(node));
+
+    if (newNode == NULL) {
+        return 0;
+    }
+    newNode->data = value;
+
+    for (tracer = &head;  *tracer != 0; tracer = &(*tracer)->next) {
+        /* try to insert or remove node */
+        if ((*tracer)->data <= value) {
+            break;
+        }
+    }
+
+    newNode-> next = *tracer;
+    *tracer = newNode;
+    return 1;
 }
 ```
 
-3. at end
-
+3. at end (see lab)
 
