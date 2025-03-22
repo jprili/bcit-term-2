@@ -66,7 +66,6 @@ Counterparts:
 |malloc() | new |
 |calloc() | |
 |realloc()| |
-|---------|--|
 |free() | delete |
 |       | delete[] | 
 
@@ -164,3 +163,41 @@ Three steps:
 1. Find the target node
 2. Assign the previous' next to be the target's next
 3. free the target node
+
+# Files
+Storage of data in variables and arrays is temporary --
+such data is lost when a program terminates.
+
+C views each file simply as a sequential stream of bytes.
+
+## opening a file
+```c
+FILE* fopen(const char* filename, const char* mode);
+```
+`filename` is the C string containing the name of the file.  
+`mode` is the access mode (one of `r`, `w`, `a`, `b`).
+Also, don't forget to close the file with `fclose(FILE*)` after use.
+
+To write and read to a file, we use `fscanf` and `fprintf`.
+
+## fwrite
+`fwrite` is used to write contents byte-by-byte.
+```c
+size_t frwite(const void* ptr, size_t size, size_t nmemb, FILE* stream);
+```
+
+## fseek
+```c
+int fseek(FILE* stream, long int offset, int whence);
+// whence can be 
+// 1. SEEK_SET
+// 2. SEEK_CUR
+// 3. SEEK_END
+```
+`offset` is number of bytes from `whence`.  
+returns zero if successful, non-zero otherwise.
+
+## fread
+```c
+size_t fread(void* ptr, size_t size, size_t nmemb, FILE* stream);
+```
